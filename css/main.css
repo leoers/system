@@ -1,0 +1,85 @@
+*{
+    margin:0;
+    padding:0;
+    border:0;
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.geral{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container{
+    background-color: darkgray;
+}
+
+/* Menu */
+
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+
+}
+nav ul li{
+    list-style:none;
+    display: block;
+    padding: 20px 20px;
+    margin: 10px 10px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 17px;
+    color: #fff;
+}
+
+nav ul li a:hover{
+    color: aquamarine;
+    transition: 0.5s;
+}
+
+/* Tela de login */
+
+.formulario-login{
+    padding: 20px 0;
+    margin: 20px 0;
+
+}
+
+.formulario-login h1{
+    text-align: center;
+    margin: 20px 0;
+}
+
+form{
+    background-color: darkgray; 
+    max-width: 400px; 
+    margin: 0 auto;
+    border-radius: 15px;
+    padding:30px 0;
+}
+
+form input, form label{
+    margin: 15px 0px;
+    border-radius: 5px;
+    max-width: 100%;
+ }
+
+.button-submit{
+    max-width: 170px;
+    margin: 0 auto;
+}
+
+.button-submit input{
+    width: 100%;
+    height: 30px;
+}
+
+
