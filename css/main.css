@@ -67,19 +67,47 @@ form{
 }
 
 form input, form label{
-    margin: 15px 0px;
-    border-radius: 5px;
+    margin: 5px 5px;
     max-width: 100%;
  }
 
-.button-submit{
-    max-width: 170px;
-    margin: 0 auto;
-}
+ .form-input, .button-submit{
+     max-width: 90%;
+     margin:0 auto;
+ }
+
+ .form-input input{
+     width: 95%;
+     height: 25px;
+     border-radius: 5px;
+ }
+ 
+ .form-input label{
+     display: block;
+ }
 
 .button-submit input{
-    width: 100%;
+    width: 40%;
     height: 30px;
+    margin: 10px 25px;
+    box-shadow:0 5px 0 0 #DAA520;
+    background-color: #FFD700;
+    color: #001;
+    font-size: 15px; 
+    cursor: pointer;
 }
+
+.button-submit input:hover{
+    background-color: #F0E68C;
+    box-shadow:0 5px 0 0 #FFFF00;
+}
+
+.button-submit input:active{
+    box-shadow:0 0 0 0;
+    top:5px;
+    position: relative;
+}
+
+
 
 
